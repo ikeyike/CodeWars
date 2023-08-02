@@ -30,7 +30,7 @@
 
 function comp(array1, array2){
   
-    if(!array2 || !array2){
+    if(!array1 || !array2){
       return false
     }
     
