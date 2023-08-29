@@ -4,7 +4,7 @@ A repository filled with codewars challenges (kata). At least one solution is pu
 
 **Link to CodeWars:** https://www.codewars.com/users/ikeyike
 
-![alt tag]![image](https://github.com/ikeyike/Codewars/assets/121066858/ee1d102f-130d-4588-868a-b5d74dc9f1b8)
+![image](https://github.com/ikeyike/Codewars/assets/121066858/ee1d102f-130d-4588-868a-b5d74dc9f1b8)
 
 ## How It's Made:
 
