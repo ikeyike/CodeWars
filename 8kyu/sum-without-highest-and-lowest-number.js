@@ -12,18 +12,10 @@
 // If an empty value ( null, None, Nothing etc. ) is given instead of an array, or the given array is an empty list or a list with only 1 element, return 0.
 
 function sumArray(array) {
-    if (!Array.isArray(array) || array.length <= 1) {
+    if (!array || array.length <= 2) {
       return 0;
     }
   
-    const max = Math.max(...array);
-    const min = Math.min(...array);
-  
-    return array.reduce((sum, num) => {
-      if (num !== max && num !== min) {
-        return sum + num;
-      }
-      return sum;
-    }, 0);
+    return array.reduce((sum, num) => sum + num, 0) - Math.min(...array) - Math.max(...array);
   }
   
