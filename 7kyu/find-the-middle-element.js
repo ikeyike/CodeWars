@@ -14,12 +14,14 @@
 // 10 is the number that fits between 5 and 14 and the index of 10 in the input array is 1.
 
 function gimme(inputArray) {
-    const middleElement = Math.max(...inputArray, ...inputArray) - Math.min(...inputArray);
+    const sortedArray = inputArray.slice().sort((a, b) => a - b);
+    const middleElement = sortedArray[1];
   
     const middleIndex = inputArray.indexOf(middleElement);
   
     return middleIndex;
-}
+  }
+  
   
   
   
